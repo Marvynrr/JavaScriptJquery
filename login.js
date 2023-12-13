@@ -22,4 +22,13 @@ $(document).ready(function(){
             }
         });
     });
+    $('#sortable').sortable();
+    $('#email, #password').on("blur", function(){
+        let element = $(this);
+        if(element.val() == ''){
+            element.css('border', '2px solid red');
+        } else {
+            element.css('border', '2px solid green');
+        }
+    });
 });
