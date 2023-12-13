@@ -1,0 +1,23 @@
+SOMME DES NOMBRES PREMIERS
+
+DEBUT
+
+DEFINIR un tableau de nombres
+
+DEFINIR une variable résultat = 0
+
+DEFINIR premier = (nombre <=0 && nombre %i==0)
+
+POUR i <= taille du tableau
+
+SI index (i) de tableau = premier
+
+ALORS ajouter index (i) à résultat
+
+FIN SI
+
+FIN POUR
+
+AFFICHER le résultat
+
+FIN

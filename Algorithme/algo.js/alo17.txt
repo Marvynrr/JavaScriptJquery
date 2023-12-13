@@ -1,0 +1,13 @@
+DEBUT
+
+On saisi un tableau
+
+On crée une boucle afin de parcourir le tableau
+On ajoute une nouvelle chaine a une chaine existante
+
+afficher resultat
+
+FIN
+
+
+

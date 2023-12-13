@@ -1,0 +1,18 @@
+MULTIPLICATION D'ELEMENTS DANS UN TABLEAU
+
+DEBUT
+
+DEFINIR un tableau de nombres
+
+DEFINIR une variable résultat = 1
+
+POUR chaque élément du tableau de nombres
+
+résultat = résultat * élément
+
+FIN POUR
+
+AFFICHER le résultat
+
+FIN
+

@@ -1,0 +1,17 @@
+CONCATENATION DE CHAINES DANS UN TABLEAU
+
+DEBUT
+
+DEFINIR tableau de chaines
+
+DEFINIR variable résultat vide
+
+POUR chaque élément du tableau
+
+résultat = résultat + élément
+
+FIN POUR
+
+AFFICHER résultat
+
+FIN

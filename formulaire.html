@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="formulaire.css" type="text/css" rel="stylesheet">
+</head>
+<body id="body">
+    <h1>Inscription à notre super site</h1>
+    <section role="inscription">
+        <h2>Inscription</h2>
+        <p id="message"></p>
+        <form name="inscription" id="inscription" method="POST" action="" onsubmit="return validForm();">
+        <div class="form-group">
+            <label for="civilite">Civilité :</label>
+            <select name="civilite" id="civilite" onchange="verifCivilite();">
+                <option value="">Sélectionner</option>
+                <option value="Mme">Madame</option>
+                <option value="Mr">Monsieur</option>
+                <option value="Non-binaire">Non-binaire</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="nom">Nom :</label>
+            <input type="text" name="nom" id="nom" placeholder="Votre nom">
+        </div>
+        <div class="form-group">
+            <label for="prenom">Prénom :</label>
+            <input type="text" name="prenom" id="prenom" placeholder="Votre prénom">
+        </div>
+        <div class="form-group">
+            <label for="age">Age :</label>
+            <input type="number" name="age" id="age" onchange="verifAge();">
+        </div>
+        <div class="form-group">
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" placeholder="Votre adresse email" onblur="verifEmail();">
+        </div>
+        <div class="form-group">
+            <label for="password">Mot de passe :</label>
+            <input type="password" name="password" id="password1">
+        </div>
+        <div class="form-group">
+            <label for="password2">Répéter mot de passe :</label>
+            <input type="password" name="password2" id="password2" onkeyup="verifPassword();">
+        </div>
+        <button type="submit" name="submit" id="submit">Inscription</button>
+    </form>
+    </section>
+    <script type="text/javascript" src="formulaire.js"></script>
+</body>
+</html>

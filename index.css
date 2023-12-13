@@ -1,0 +1,20 @@
+body {
+    background-color: lightsalmon;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+a {
+    font-size: large;
+    font-family: Georgia, serif;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    color: white;
+    border: solid 2px black;
+    margin: 10px;
+}
+h2 {
+    font-size: 2cm;
+}

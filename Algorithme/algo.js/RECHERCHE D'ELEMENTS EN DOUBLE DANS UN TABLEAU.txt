@@ -1,0 +1,25 @@
+RECHERCHE D'ELEMENTS EN DOUBLE DANS UN TABLEAU
+
+DEBUT
+
+DEFINIR un tableau d'éléments
+
+DEFINIR un tableau vide
+
+DEFINIR un tableau doublons
+
+POUR chaque élément du tableau d'éléments
+
+SI élément absent dans tableau vide
+
+ALORS ajouter élément dans tableau vide
+
+SINON ajouter élément dans tableau doublons
+
+FIN SI
+
+FIN POUR
+
+AFFICHER tableau doublons
+
+FIN

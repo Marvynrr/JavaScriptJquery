@@ -1,0 +1,21 @@
+SOMME DE TOUS LES ENTIERS ENTRE A ET B
+
+DEBUT
+
+SAISIR nombreA
+
+SAISIR nombreB
+
+DEFINIR une variable résultat = 0
+
+POUR index (i) nombreA jusqu'à nombreB
+
+SI nombreA et nombreB sont entier
+
+ALORS résultat = résultat + index (i)
+
+FIN POUR
+
+AFFICHER résultat
+
+FIN

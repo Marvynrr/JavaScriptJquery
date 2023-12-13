@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generateur perso</title>
+</head>
+<body>
+    <script>
+        function generateurPerso(taille) {
+
+            let caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            let chiffres = "1234567890";
+            let symboles = "#-.*@&";
+            
+            let mdp = symboles.charAt(Math.floor(Math.random() * (6 - 0 + 1)) + 0);
+                mdp += symboles.charAt(Math.floor(Math.random() * (6 - 0 + 1)) + 0);
+                mdp += chiffres.charAt(Math.floor(Math.random() * (9 - 0 + 1)) + 0);
+            let max = taille - 3; //Math.floor(Math.random() * (13 - 7 + 1)) + 7;
+
+            for (let i = 1; i <= max; i++) {
+                mdp += caracteres.charAt(Math.floor(Math.random() * (52 - 0 + 1)) + 0);
+            }
+
+            console.log(mdp, mdp.length);
+        }
+
+        let taille = prompt("Saisir la taille du mot de passe : ");
+        generateurPerso(taille);
+    </script>
+
+</body>
+</html>

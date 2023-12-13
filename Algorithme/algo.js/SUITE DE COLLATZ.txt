@@ -1,0 +1,25 @@
+SUITE DE COLLATZ
+
+DEBUT
+
+SAISIR un nombre
+
+DEFINIR une variable résultat = vide
+
+TANT QUE résultat != 1
+
+SI nombre = pair (%2==0)
+
+ALORS résultat = nombre / 2
+
+SINON SI nombre = impair
+
+ALORS résultat = (nombre * 3) + 1
+
+FIN SI
+
+FIN TANT QUE
+
+AFFICHER le résultat
+
+FIN

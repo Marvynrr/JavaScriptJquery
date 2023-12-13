@@ -1,0 +1,39 @@
+DEBUT
+
+CHOISIR sa fonction (/ * - + %)
+
+LIRE nombreC <- %
+
+Lire fonction % <- saisir nombre A et nombreC
+
+SAISIR nombreA et nombreB
+
+SI résultat nombreA / ou * ou - ou + nombreB >= 0
+
+ALORS afficher resultat
+
+SINON afficher "Erreur, résultat incorrect"
+
+FIN SI
+
+SAISIR nombre A et nombreC
+
+SI résultat nombreA / ou * ou - ou + nombrec >= 0
+
+ALORS afficher resultat
+
+SINON afficher "Erreur, résultat incorrect"
+
+FIN SI
+
+FIN
+
+
+
+
+
+
+
+
+
+
